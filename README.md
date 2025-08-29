@@ -10,14 +10,14 @@ Este é um projeto básico em Flask, criado para praticar:
 
 ##  Estrutura do Projeto
 
-gestor_de_tarefas/
-├── dados/
-│ ├── tarefas.json
-│ └── login.json
-├── templates/
-│ ├── login.html
-│ ├── tarefa.html
-│ └── add.html
+- gestor_de_tarefas/
+- ├── dados/
+- │ ├── tarefas.json
+- │ └── login.json
+- ├── templates/
+- │ ├── login.html
+- │ ├── tarefa.html
+- │ └── add.html
 ├── manage.py
 └── README.md
 
