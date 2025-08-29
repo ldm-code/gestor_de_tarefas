@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+      
+          <title>tarefasso</title>
+</head>
+<body><div style="text-align: center;">
+          <h1>ola amigo</h1>
+          <form action="/t" method="GET">
+                    <input type="submit" name="tarefa" value="adicionar tarefa">
+          </form>
+                    <div>
+                              {%  for item in tarefas %}
+                                       <p class="conteudo">tarefa:{{item.tarefa}},descricao:{{item.descricao}}</p>
+                              {% endfor %}
+                    </div>
+</div>
+          
+</body>
+</html>
