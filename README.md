@@ -51,9 +51,4 @@ Este é um projeto básico em Flask, criado para praticar:
 
 ---
 
-##  Como Executar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ldm-code/gestor_de_tarefas.git
 
