@@ -18,8 +18,8 @@ Este é um projeto básico em Flask, criado para praticar:
 - │ ├── login.html
 - │ ├── tarefa.html
 - │ └── add.html
-├── manage.py
-└── README.md
+- ├── manage.py
+- └── README.md
 
 - **dados/**  
   Contém os arquivos JSON onde os dados de login e tarefas são armazenados.
