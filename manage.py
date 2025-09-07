@@ -43,6 +43,7 @@ def add_tarefa():
     tarefa_criada={'tarefa':tarefa,
                    'descricao':descricao}
     nova_tarefa=carregar_tarefas()
+    
     nova_tarefa.append(tarefa_criada)
     salvar_tarefa(nova_tarefa)
     return render_template('tarefa.html',tarefas=nova_tarefa)
