@@ -14,6 +14,11 @@ Este é um projeto básico em Flask, criado para praticar:
 - ├── dados/
 - │ ├── tarefas.json
 - │ └── login.json
+- ├── static/
+- ├ └── css/
+- │ ├── login.css
+- │ ├── tarefa.css
+- │└── add.css
 - ├── templates/
 - │ ├── login.html
 - │ ├── tarefa.html
