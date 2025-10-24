@@ -1,0 +1,37 @@
+label{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 13px;
+          background-color: antiquewhite;
+          border-radius: 3px;
+
+}
+h1{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 33px;     
+}
+h1:hover{
+          transform: translateY(-9px);
+}
+
+input{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          background-color: blanchedalmond;
+          font-size: 13px;
+          border-radius: 3px;
+
+}
+input:hover{
+          transform: translateY(-9px);
+}
+textarea{      
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          background-color: blanchedalmond;
+          font-size: 13px;
+          border-radius: 3px;
+}
+textarea:hover{
+          transform: translateY(-9px);
+}
+body{
+          background-color: darksalmon;
+}

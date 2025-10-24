@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
           <meta charset="UTF-8">
-      
+          <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/tarefa.css') }}">
           <title>tarefasso</title>
 </head>
 <body><div style="text-align: center;">
@@ -10,9 +10,12 @@
           <form action="/t" method="GET">
                     <input type="submit" name="tarefa" value="adicionar tarefa">
           </form>
-                    <div>
+                    <div style="text-align: center;">
                               {%  for item in tarefas %}
-                                       <p class="conteudo">tarefa:{{item.tarefa}},descricao:{{item.descricao}}</p>
+                                       <div class="tarefa-card" style="text-align: center;">
+                                           <p><strong>Tarefa:</strong> {{ item.tarefa }}</p>
+                                           <p><strong>Descrição:</strong> {{ item.descricao }}</p>
+                                        </div>
                               {% endfor %}
                     </div>
 </div>

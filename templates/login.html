@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
           <meta charset="UTF-8">
-
+          <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
           <title>login</title>
 </head>
 <body>
@@ -10,9 +10,9 @@
                     <h2>bem vindo ao tarefasso</h2>
                     <h1>digite nome e senha</h1>
                     <form action="/log" method="POST">
-                              <label>seu nome</label>
+                              <label>seu nome</label><br>
                               <input type="text" name="nome" required><br>
-                              <label >sua senha</label>
+                              <label >sua senha</label><br>
                               <input type="password" name="senha" required>
                               <button type="submit" name="entrar">entrar</button>
                     </form>

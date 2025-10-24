@@ -1,0 +1,50 @@
+body{
+          background-color: darksalmon;
+}
+h2{
+
+          color: antiquewhite;
+        
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 33px;
+          background-size: auto;
+}
+h2:hover{
+          transform: translateY(-9px);
+}
+h1{
+
+          color: antiquewhite;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 33px;
+          background-size: auto;
+}
+h1:hover{
+          transform: translateY(-9px);
+}
+label{
+          
+          color:blanchedalmond;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 33px;
+          background-size: auto;
+}
+
+
+input{
+          background-color: darkgray;
+          border-radius: 3px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 13px;
+}
+input:hover{
+          transform: translateY(-9px);
+}
+button{
+          background-color:azure ;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          
+}
+button:hover{
+          transform: translateY(-9px);
+}
