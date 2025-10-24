@@ -4,6 +4,7 @@ Este é um projeto básico em Flask, criado para praticar:
 - Framework **Flask** para desenvolvimento web em Python;
 - Persistência de dados em **JSON** (sem uso de banco de dados relacional);
 - Estruturação de **templates HTML** (com **Jinja2**);
+- **CSS** para estilizacao basica.
 - **Hash de senhas** com `werkzeug.security`.
 
 ---
