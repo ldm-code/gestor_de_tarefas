@@ -31,7 +31,9 @@ Este é um projeto básico em Flask, criado para praticar:
   Contém os arquivos JSON onde os dados de login e tarefas são armazenados.
 
 - **templates/**  
-  Armazena os arquivos HTML que o Flask renderiza nas diferentes rotas. 
+  Armazena os arquivos HTML que o Flask renderiza nas diferentes rotas.
+- **static/css/**
+    Arquivos css para customizacao basica
 
 - **manage.py**  
   Arquivo principal que executa o servidor Flask e define as rotas da aplicação.
