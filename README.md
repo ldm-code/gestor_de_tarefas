@@ -4,6 +4,7 @@ Este é um projeto básico em Flask, criado para praticar:
 - Framework **Flask** para desenvolvimento web em Python;
 - Persistência de dados em **JSON** (sem uso de banco de dados relacional);
 - Estruturação de **templates HTML** (com **Jinja2**);
+- **CSS** para estilizacao basica.
 - **Hash de senhas** com `werkzeug.security`.
 
 ---
@@ -14,6 +15,11 @@ Este é um projeto básico em Flask, criado para praticar:
 - ├── dados/
 - │ ├── tarefas.json
 - │ └── login.json
+- ├── static/
+- ├ └── css/
+- │ ├── login.css
+- │ ├── tarefa.css
+- │└── add.css
 - ├── templates/
 - │ ├── login.html
 - │ ├── tarefa.html
@@ -25,7 +31,9 @@ Este é um projeto básico em Flask, criado para praticar:
   Contém os arquivos JSON onde os dados de login e tarefas são armazenados.
 
 - **templates/**  
-  Armazena os arquivos HTML que o Flask renderiza nas diferentes rotas. 
+  Armazena os arquivos HTML que o Flask renderiza nas diferentes rotas.
+- **static/css/**
+    Arquivos css para customizacao basica
 
 - **manage.py**  
   Arquivo principal que executa o servidor Flask e define as rotas da aplicação.
